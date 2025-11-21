@@ -196,7 +196,46 @@ a {
   padding-top: 2px;
   padding-bottom: 2px;
   margin-top: 10px;
-	Height: 100px;
-	widthL: 100%; 
+  height: auto;
+  width: 100%;
 }
+
+#I1, #I2, #I3, #I4, #I5 {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  border-color: #000000;
+  border-width: 2px;
+  border-style: double;
+  padding-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 10px;
+}
+
+#I1 {
+  float: left;
+  margin-right: 15px;
+  transform: rotate(300deg);
+}
+#I2 {
+  float: right;
+  transform: rotate(360deg);
+}
+#I3 {
+  display: block;
+  transform: rotate(45deg);
+}
+
+#I4 {
+  float: left;
+  transform: rotate(15deg);
+}
+
+#I5 {
+  float: right;
+  margin-left: 15px;
+  transform: rotate(75deg);
+}
+
 
